@@ -5,6 +5,7 @@ package interview.cal;
  * Created by zhao on 12/14/16.
  */
 public class NumberSumExhaustion {
+
     public static void main(String[] args) {
         for (int iSum = 1; iSum <= 20; iSum++) {
             for (int jSum = 2; jSum <= 20; jSum += 2) {
