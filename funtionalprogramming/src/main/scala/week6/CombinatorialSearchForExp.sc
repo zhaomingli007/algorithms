@@ -2,7 +2,6 @@ object pairs {
 
   val n = 7
 
-
   def isPrime(n: Int) = (2 until n) forall (n % _ != 0)
 
 
