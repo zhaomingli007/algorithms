@@ -29,7 +29,6 @@
     <favorites_list name="funtionalprogramming" />
   </component>
   <component name="FileEditorManager">
-<<<<<<< Updated upstream
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file leaf-file-name="pouring.sc" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/scala/dweek1/pouring.sc">
@@ -75,9 +74,7 @@
         </entry>
       </file>
     </leaf>
-=======
     <leaf />
->>>>>>> Stashed changes
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -106,16 +103,13 @@
         <option value="$PROJECT_DIR$/src/main/scala/DataAndAbstraction.sc" />
         <option value="$PROJECT_DIR$/src/main/scala/week4/List.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/week4/nth.sc" />
-<<<<<<< Updated upstream
         <option value="$PROJECT_DIR$/src/main/scala/dweek1/stream.sc" />
         <option value="$PROJECT_DIR$/src/main/scala/Lazyeval.sc" />
         <option value="$PROJECT_DIR$/src/main/scala/dweek1/Pouring.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/dweek1/pouring.sc" />
-=======
         <option value="$PROJECT_DIR$/src/main/scala/week6/CombinatorialSearchForExp.sc" />
         <option value="$PROJECT_DIR$/src/main/scala/week6/nqueens.sc" />
         <option value="$PROJECT_DIR$/src/main/scala/week6/phonenumtrans.sc" />
->>>>>>> Stashed changes
       </list>
     </option>
   </component>
@@ -138,11 +132,8 @@
             <id />
           </State>
           <State>
-<<<<<<< Updated upstream
             <id>CollectionsScala</id>
-=======
             <id>Android Lint</id>
->>>>>>> Stashed changes
           </State>
           <State>
             <id>CSS</id>
@@ -268,14 +259,11 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-<<<<<<< Updated upstream
       <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane />
       </pane>
       <pane id="Scope" />
-      <pane id="PackagesPane" />
-=======
       <pane id="PackagesPane" />
       <pane id="Scratches" />
       <pane id="ProjectPane">
@@ -321,7 +309,6 @@
         </subPane>
       </pane>
       <pane id="Scope" />
->>>>>>> Stashed changes
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -821,22 +808,18 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-<<<<<<< Updated upstream
-    <option name="totallyTimeSpent" value="38731000" />
-=======
     <option name="totallyTimeSpent" value="31439000" />
->>>>>>> Stashed changes
-  </component>
-  <component name="TodoView" selected-index="2">
-    <todo-panel id="selected-file">
-      <is-autoscroll-to-source value="true" />
-    </todo-panel>
-    <todo-panel id="all">
-      <are-packages-shown value="true" />
-      <is-autoscroll-to-source value="true" />
-    </todo-panel>
-  </component>
-  <component name="ToolWindowManager">
+</component>
+<component name="TodoView" selected-index="2">
+<todo-panel id="selected-file">
+<is-autoscroll-to-source value="true" />
+</todo-panel>
+<todo-panel id="all">
+<are-packages-shown value="true" />
+<is-autoscroll-to-source value="true" />
+</todo-panel>
+</component>
+<component name="ToolWindowManager">
 <<<<<<< Updated upstream
     <frame x="4" y="23" width="1362" height="745" extended-state="0" />
     <editor active="true" />
@@ -869,7 +852,6 @@
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="JRebel remote servers log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329927" sideWeight="0.5" order="12" side_tool="true" content_ui="tabs" />
       <window_info id="JRebel" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
-=======
     <frame x="4" y="23" width="1276" height="777" extended-state="6" />
     <editor active="false" />
     <layout>
@@ -901,7 +883,6 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
->>>>>>> Stashed changes
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -1296,17 +1277,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
           <caret line="60" column="21" selection-start-line="60" selection-start-column="21" selection-end-line="60" selection-end-column="21" />
-=======
     <entry file="file://$PROJECT_DIR$/funtionalprogramming.iml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
           <caret line="7" column="26" selection-start-line="7" selection-start-column="26" selection-end-line="7" selection-end-column="26" />
->>>>>>> Stashed changes
           <folding />
         </state>
       </provider>
     </entry>
-<<<<<<< Updated upstream
     <entry file="file://$PROJECT_DIR$/src/main/scala/ClassHierarchy.sc">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="510">
@@ -1402,27 +1380,22 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
           <caret line="6" column="25" selection-start-line="6" selection-start-column="25" selection-end-line="6" selection-end-column="25" />
-=======
     <entry file="file://$PROJECT_DIR$/src/main/scala/week6/CombinatorialSearchForExp.sc">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
           <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
->>>>>>> Stashed changes
           <folding />
         </state>
       </provider>
     </entry>
-<<<<<<< Updated upstream
     <entry file="file://$PROJECT_DIR$/src/main/scala/dweek1/StateMoves.sc">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-=======
     <entry file="file://$PROJECT_DIR$/src/main/scala/week6/nqueens.sc">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="15">
           <caret line="1" column="2" selection-start-line="1" selection-start-column="2" selection-end-line="1" selection-end-column="2" />
->>>>>>> Stashed changes
           <folding />
         </state>
       </provider>
@@ -1486,12 +1459,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
           <caret line="18" column="45" selection-start-line="18" selection-start-column="45" selection-end-line="18" selection-end-column="45" />
-=======
     <entry file="file://$PROJECT_DIR$/src/main/scala/week6/phonenumtrans.sc">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="183">
           <caret line="22" column="10" selection-start-line="22" selection-start-column="10" selection-end-line="22" selection-end-column="10" />
->>>>>>> Stashed changes
           <folding />
         </state>
       </provider>
