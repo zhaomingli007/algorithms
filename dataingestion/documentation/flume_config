@@ -3,16 +3,18 @@ agent_serverlog_1.sources = applog1
 agent_serverlog_1.channels = channel1
 agent_serverlog_1.sources.applog1.type = TAILDIR
 agent_serverlog_1.sources.applog1.channels = channel1
-agent_serverlog_1.sources.applog1.positionFile = /tmp/taildir_position.json
+agent_serverlog_1.sources.applog1.positionFile = /tmp/flume/taildir_position.json
 agent_serverlog_1.sources.applog1.filegroups = f1
 agent_serverlog_1.sources.applog1.filegroups.f1 = /tmp/.*log.*
 agent_serverlog_1.sources.applog1.headers.f1.headerKey1 = value1
 agent_serverlog_1.sources.applog1.fileHeader = true
 
 # Use a channel which buffers events in memory
-agent_serverlog_1.channels.channel1.type = memory
 agent_serverlog_1.channels.channel1.capacity = 1000
 agent_serverlog_1.channels.channel1.transactionCapacity = 100
+
+
+# agent_serverlog_1.channels.channel1.type = memory
 
 agent_serverlog_1.channels.channel1.type = org.apache.flume.channel.kafka.KafkaChannel
 agent_serverlog_1.channels.channel1.kafka.bootstrap.servers = localhost:9092,localhost:9093,localhost:9094
