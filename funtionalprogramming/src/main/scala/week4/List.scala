@@ -48,6 +48,6 @@ object List {
 
 object test {
   val x: List[String] = Nil
-  val y: List[Double] = List[Nothing]
+  val y: List[Double] = Nil
 }
 
