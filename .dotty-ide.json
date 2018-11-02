@@ -1,0 +1,15 @@
+[ {
+  "id" : "algorithms/compile",
+  "compilerVersion" : "0.11.0-bin-20181017-3253921-NIGHTLY",
+  "compilerArguments" : [ ],
+  "sourceDirectories" : [ "/Users/zhao/codebase/algorithms/src/main/scala-0.11", "/Users/zhao/codebase/algorithms/src/main/scala", "/Users/zhao/codebase/algorithms/src/main/java", "/Users/zhao/codebase/algorithms/target/scala-0.11/src_managed/main" ],
+  "dependencyClasspath" : [ "/Users/zhao/.ivy2/cache/ch.epfl.lamp/scala-library/jars/scala-library-0.11.0-bin-20181017-3253921-NIGHTLY.jar", "/Users/zhao/.ivy2/cache/ch.epfl.lamp/dotty-library_0.11/jars/dotty-library_0.11-0.11.0-bin-20181017-3253921-NIGHTLY.jar", "/Users/zhao/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.12.7.jar" ],
+  "classDirectory" : "/Users/zhao/codebase/algorithms/target/scala-0.11/classes"
+}, {
+  "id" : "algorithms/test",
+  "compilerVersion" : "0.11.0-bin-20181017-3253921-NIGHTLY",
+  "compilerArguments" : [ ],
+  "sourceDirectories" : [ "/Users/zhao/codebase/algorithms/src/test/scala-0.11", "/Users/zhao/codebase/algorithms/src/test/scala", "/Users/zhao/codebase/algorithms/src/test/java", "/Users/zhao/codebase/algorithms/target/scala-0.11/src_managed/test" ],
+  "dependencyClasspath" : [ "/Users/zhao/codebase/algorithms/target/scala-0.11/classes", "/Users/zhao/.ivy2/cache/ch.epfl.lamp/scala-library/jars/scala-library-0.11.0-bin-20181017-3253921-NIGHTLY.jar", "/Users/zhao/.ivy2/cache/ch.epfl.lamp/dotty-library_0.11/jars/dotty-library_0.11-0.11.0-bin-20181017-3253921-NIGHTLY.jar", "/Users/zhao/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.12.7.jar" ],
+  "classDirectory" : "/Users/zhao/codebase/algorithms/target/scala-0.11/test-classes"
+} ]

@@ -1,0 +1,1 @@
+scalaVersion := "0.11.0-bin-20181017-3253921-NIGHTLY"
