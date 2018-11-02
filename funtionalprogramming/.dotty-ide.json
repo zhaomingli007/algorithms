@@ -1,0 +1,15 @@
+[ {
+  "id" : "root/compile",
+  "compilerVersion" : "0.11.0-bin-20181101-714ce80-NIGHTLY",
+  "compilerArguments" : [ "-language:Scala2" ],
+  "sourceDirectories" : [ "/Users/zhao/codebase/algorithms/funtionalprogramming/src/main/scala-0.11", "/Users/zhao/codebase/algorithms/funtionalprogramming/src/main/scala", "/Users/zhao/codebase/algorithms/funtionalprogramming/src/main/java", "/Users/zhao/codebase/algorithms/funtionalprogramming/target/scala-0.11/src_managed/main" ],
+  "dependencyClasspath" : [ "/Users/zhao/.ivy2/cache/ch.epfl.lamp/scala-library/jars/scala-library-0.11.0-bin-20181101-714ce80-NIGHTLY.jar", "/Users/zhao/.ivy2/cache/ch.epfl.lamp/dotty-library_0.11/jars/dotty-library_0.11-0.11.0-bin-20181101-714ce80-NIGHTLY.jar", "/Users/zhao/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.12.7.jar" ],
+  "classDirectory" : "/Users/zhao/codebase/algorithms/funtionalprogramming/target/scala-0.11/classes"
+}, {
+  "id" : "root/test",
+  "compilerVersion" : "0.11.0-bin-20181101-714ce80-NIGHTLY",
+  "compilerArguments" : [ "-language:Scala2" ],
+  "sourceDirectories" : [ "/Users/zhao/codebase/algorithms/funtionalprogramming/src/test/scala-0.11", "/Users/zhao/codebase/algorithms/funtionalprogramming/src/test/scala", "/Users/zhao/codebase/algorithms/funtionalprogramming/src/test/java", "/Users/zhao/codebase/algorithms/funtionalprogramming/target/scala-0.11/src_managed/test" ],
+  "dependencyClasspath" : [ "/Users/zhao/codebase/algorithms/funtionalprogramming/target/scala-0.11/classes", "/Users/zhao/.ivy2/cache/ch.epfl.lamp/scala-library/jars/scala-library-0.11.0-bin-20181101-714ce80-NIGHTLY.jar", "/Users/zhao/.ivy2/cache/ch.epfl.lamp/dotty-library_0.11/jars/dotty-library_0.11-0.11.0-bin-20181101-714ce80-NIGHTLY.jar", "/Users/zhao/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.12.7.jar" ],
+  "classDirectory" : "/Users/zhao/codebase/algorithms/funtionalprogramming/target/scala-0.11/test-classes"
+} ]
