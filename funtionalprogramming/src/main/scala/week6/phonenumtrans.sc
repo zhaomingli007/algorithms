@@ -1,6 +1,5 @@
 import scala.io.Source
 
-object phonenumtrans {
 
   val in = Source.fromURL("http://lamp.epfl.ch/files/content/sites/lamp/files/teaching/progfun/linuxwords.txt")
   val words = in.getLines.toList filter (_ forall (c => c.isLetter))
@@ -14,7 +13,7 @@ object phonenumtrans {
   //  def wordCode(word: String): String = for (c <- word) yield charCode(c)
   def wordCode(word: String): String = word.toUpperCase() map charCode //Map take a key as parameter and return value
   wordCode("Java")
-
+  
   val wordsForNum: Map[String, Seq[String]] =
     words groupBy wordCode withDefaultValue Seq()
 
@@ -35,4 +34,3 @@ object phonenumtrans {
     encode(number) map (_ mkString " ")
 
   translate("772362362")
-}

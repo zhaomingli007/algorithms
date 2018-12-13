@@ -1,0 +1,9 @@
+
+.history
+.vscode
+target
+.dotty-*
+out
+project/target
+project/project
+.idea
