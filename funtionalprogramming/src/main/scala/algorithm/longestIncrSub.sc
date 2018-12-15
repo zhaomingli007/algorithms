@@ -20,8 +20,29 @@ def findLengthOfLCIS(nums: Array[Int]): Int = {
 findLengthOfLCIS(Array(2,2,2,2,2))
 
 
-def lis[A: Ordering](s: Seq[A]) = {
-   val cache = scala.collection.mutable.Map.empty[Int,Seq[A]]
-   def findCandicate(value:Int) = 
+import scala.math.Ordering.Implicits._
+def lis(s:Array[Int]):Array[Int] = {
+
+  //cache
+  val cache = scala.collection.mutable.Map(0->Array.empty[Int])
+  def longest = cache.size - 1
+  //Find position to be updated
+  def findIdx(x:Int,start:Int=0,end:Int=longest):Int={
+    if(start == end) start 
+    else {
+      val mid = (start+end+1)/2
+
+      if(cache(mid).last>x) findIdx(x,start,mid-1) else findIdx(x,mid,end)
+    }
+  }
+  //Update cache
+  s.foreach{
+    c=>
+    val p = if(cache.size>1 && c>cache(longest).last)longest else  findIdx(c)  
+    cache(p+1) = cache(p):+c
+  }
+
+  cache(longest)
 }
 
+lis(Array(0,8,4,12,2,10,6,14,1,9,5,13,3,11,7,15))
