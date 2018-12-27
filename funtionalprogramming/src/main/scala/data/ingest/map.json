@@ -1,0 +1,2 @@
+{"dbSchema":"SCOTT","tableName":"PROFILE_DAILY","partitionColumn":"PARTITION_COL","lowerBound":"20181001","upperBound":"20181032","numPartitions":"31","hdfsPath":"/tmp/data/ora/"}
+{"dbSchema":"SCOTT","tableName":"PROFILE_MNTH","partitionColumn":"PARTITION_COL","lowerBound":"201809","upperBound":"201812","numPartitions":"3","hdfsPath":"/tmp/data/ora/"}
