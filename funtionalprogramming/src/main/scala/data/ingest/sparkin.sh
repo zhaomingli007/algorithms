@@ -1,1 +1,1 @@
-spark-shell -i SparkIngest.sc --executor-memory 1G --num-executors 2  --executor-cores 2  --driver-class-path /tmp/ojdbc6.jar --jars /tmp/ojdbc6.jar --conf spark.driver.args="map2.json localhost 1521 XE system oracle"
+spark-shell -i SparkIngest.sc --executor-memory 1G --num-executors 2  --executor-cores 2  --driver-class-path /tmp/ojdbc6.jar --jars /tmp/ojdbc6.jar --conf spark.driver.args="map2.json localhost 1521 XE system oracle" > SparkIngest.log 2>&1 &
