@@ -1,2 +1,3 @@
-{"dbSchema":"SCOTT","tableName":"PROFILE_DAILY","partitionColumn":"PARTITION_COL","lowerBound":"20181001","upperBound":"20181032","numPartitions":"31","hdfsPath":"/tmp/data/ora/"}
-{"dbSchema":"SCOTT","tableName":"PROFILE_MNTH","partitionColumn":"PARTITION_COL","lowerBound":"201809","upperBound":"201812","numPartitions":"3","hdfsPath":"/tmp/data/ora/"}
+{"dbSchema":"EP_REL","tableName":"CTCT","evenPullCol":"","lowerBound":"","upperBound":"","numPartitions":"","filter":"1=1","hdfsPath":"/tmp/edw/","phyPartition":"","maskColumns": "IDNT_DOC_1_NO,IDNT_DOC_2_NO,FAX_NO,EML_ID,PHN_NO,MOBL_NO,BRTH_DT,GNDR_IND,MRTL_STTS_IND,NTNL_NM,FRST_NM,MID_NM,LAST_NM,PREF_NM,LEGL_NM"}
+{"dbSchema":"EP_REL","tableName":"CUST","evenPullCol":"","lowerBound":"","upperBound":"","numPartitions":"","filter":"CLSE_TS=to_date('9999-12-31','YYYY-MM-DD')","hdfsPath":"/tmp/edw/","phyPartition":"","maskColumns": "CUST_LEGL_NM"}
+{"dbSchema":"EP_REL","tableName":"SUBS","evenPullCol":"","lowerBound":"","upperBound":"","numPartitions":"","filter":"CLSE_TS=to_date('9999-12-31','YYYY-MM-DD')","hdfsPath":"/tmp/edw/","phyPartition":"","maskColumns": "SUBS_FRST_NM,SUBS_MID_NM,SUBS_LAST_NM,SUBS_BRTH_DT"}

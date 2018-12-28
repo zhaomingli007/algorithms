@@ -1,0 +1,1 @@
+{"dbSchema":"SCOTT","tableName":"PROFILE_DAILY","numPartitions":"4","filter":"1=1","hdfsPath":"/tmp/data/ora","phyPartition":"PARTITION_COL","maskColumns": "NEWCOLUMN"}
