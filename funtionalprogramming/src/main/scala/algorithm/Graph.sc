@@ -45,10 +45,9 @@ object Graph {
   */
   def dijkstra(g:Graph,start:Int,goal:Int) = new AStar[Int] {
     assume(g hasVertices (start, goal))
-    def neighbors(n: Int) = g neighbers n
+    override def neighbors(n: Int) = g neighbers n
     override def distance(from: Int, to: Int) = g(from -> to)
   } run (start, _ == goal)
-
 
 }
 
