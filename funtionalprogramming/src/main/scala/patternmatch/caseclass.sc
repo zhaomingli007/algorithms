@@ -51,5 +51,5 @@ def getJsonStr(m:JSON):String= m match {
 }
 
 val s = getJsonStr(j)
-// println(s)
+println(s)
 
