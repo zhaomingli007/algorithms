@@ -1,3 +1,4 @@
+package algorithm
 import scala.language.implicitConversions
 
 case class Memo[K,I,O](f: I => O)(implicit i2k:I=>K ) extends (I => O) {

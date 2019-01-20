@@ -1,5 +1,5 @@
 import scala.collection.mutable.Map
-
+import algorithm.AStar
 
 type EndPoints = (Int,Int)
 class Graph(numberOfVertices:Int,isDirected:Boolean=true){
