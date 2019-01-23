@@ -29,15 +29,17 @@ def ss(subset:List[Int],sum:Int):Boolean={
 ss(List(9,8,3,7,5,6),6)
 
 
-def sss(subset:List[Int],sum:Int):Seq[Seq[Int]]={
-  type DP = Memo[(Int,Int),(List[Int],Int),Seq[Seq[Int]]]
-  implicit def decode(i:(List[Int],Int)):(Int,Int) = (i._1.length,i._2)
-  lazy val isChaeivalbe : DP = Memo{
-    case(Nil,_) =>Nil
-    case(_,0)  => Seq(Nil)
-    case(head::l,s) =>  sss(l,s - head).map(_:+head) ++ sss(l,head)
-  }
-  isChaeivalbe(subset,sum)
-}
+  def subsetSum(s: List[Int], t: Int) = {
+    type DP = Memo[ (Int, Int), (List[Int], Int),Seq[Seq[Int]]]
+    implicit def encode(key: (List[Int], Int)):(Int,Int) = (key._1.length, key._2)
 
-sss(List(9,8,3,7,5,6),27)
+    lazy val f: DP = Memo {
+      case (Nil, 0) => Seq(Nil)
+      case (Nil, _) => Nil
+      case (a :: as, x) => f(as, x - a).map(_ :+ a) ++ f(as, x)
+    }
+
+    f(s, t)
+  }
+
+subsetSum(List(5,10,17,9,8,3,7,6),27)
