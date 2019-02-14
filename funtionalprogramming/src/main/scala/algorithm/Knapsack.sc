@@ -1,6 +1,7 @@
+import algorithm.Memo
+
 import scala.language.implicitConversions
 //Use memo
-import Memo._
 case class Item(weight:Int,value:Int){
   val ratio = value*1.0f/weight
 }

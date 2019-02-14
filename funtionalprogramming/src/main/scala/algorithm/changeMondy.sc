@@ -1,6 +1,7 @@
 //https://leetcode.com/problems/coin-change-2/ (greedy?)
+import algorithm.Memo
+
 import scala.language.implicitConversions
-import Memo._
 
 def coinchange(s: List[Int], t: Int) = {
   type DP = Memo[ (Int, Int), (List[Int], Int),Seq[Seq[Int]]]
