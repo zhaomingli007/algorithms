@@ -4,7 +4,7 @@ def answer(num:Int): Try[Int] = {
   if(num == 30) Success(30)
   else Failure(new Exception("error"))
 }
-answer(12) match {
+answer(12) match { 
   case Success(t) => t
   case fail @ Failure(exc) => fail
 }

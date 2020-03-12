@@ -17,5 +17,6 @@ def coinchange(s: List[Int], t: Int) = {
   f(s, t)
 }
 
+
 val cm = coinchange(List(5,10,17,9,8,3,7,6),27)
 cm.length

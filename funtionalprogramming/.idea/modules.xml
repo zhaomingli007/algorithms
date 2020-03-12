@@ -3,7 +3,9 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/functionalprogramming.iml" filepath="$PROJECT_DIR$/.idea/modules/functionalprogramming.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/functionalprogramming-build.iml" filepath="$PROJECT_DIR$/.idea/modules/functionalprogramming-build.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/funtionalprogramming-build.iml" filepath="$PROJECT_DIR$/.idea/modules/funtionalprogramming-build.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/funtionalprogramming.functionalprogramming.iml" filepath="$PROJECT_DIR$/.idea/modules/funtionalprogramming.functionalprogramming.iml" />
     </modules>
   </component>
 </project>

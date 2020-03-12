@@ -1,4 +1,4 @@
-package algo;
+package algorithm;
 // Java Program to find the longest common prefix 
 class LCP {
 

@@ -12,4 +12,4 @@ def sort(x:List[Int]):List[Int] = x match {
     sort(x.filter( pivot >)) ++ x.filter( pivot ==) ++ sort(x.filter( pivot <))
   }
 }
-sort(x.toList)
+print(sort(x.toList))

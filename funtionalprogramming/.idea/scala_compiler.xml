@@ -1,11 +1,36 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ScalaCompilerConfiguration">
-    <profile name="sbt 1" modules="funtionalprogramming_7540,f,funtionalprogramming,functionalprogramming" />
+    <option name="dynamics" value="true" />
+    <option name="postfixOps" value="true" />
+    <option name="reflectiveCalls" value="true" />
+    <option name="implicitConversions" value="true" />
+    <option name="higherKinds" value="true" />
+    <option name="existentials" value="true" />
+    <option name="macros" value="true" />
+    <option name="experimental" value="true" />
+    <profile name="sbt 1" modules="f,functionalprogramming,funtionalprogramming,funtionalprogramming_1242,funtionalprogramming_7540">
+      <option name="dynamics" value="true" />
+      <option name="postfixOps" value="true" />
+      <option name="reflectiveCalls" value="true" />
+      <option name="implicitConversions" value="true" />
+      <option name="higherKinds" value="true" />
+      <option name="existentials" value="true" />
+      <option name="macros" value="true" />
+      <option name="experimental" value="true" />
+    </profile>
     <profile name="sbt 2" modules="funnctionalprogramming">
+      <option name="dynamics" value="true" />
+      <option name="postfixOps" value="true" />
+      <option name="reflectiveCalls" value="true" />
+      <option name="implicitConversions" value="true" />
+      <option name="existentials" value="true" />
+      <option name="macros" value="true" />
+      <option name="experimental" value="true" />
       <parameters>
         <parameter value="-language:Scala2" />
       </parameters>
     </profile>
+    <profile name="sbt 3" modules="funtionalprogramming.functionalprogramming" />
   </component>
 </project>
