@@ -1,7 +1,5 @@
 package algorithm.leetcode.rnd1
 
-
-
 object ThreeSum {
 
   def threeSum(unsortNums: Array[Int]): List[List[Int]] = {

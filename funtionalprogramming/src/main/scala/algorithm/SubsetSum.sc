@@ -34,7 +34,7 @@ ss(List(9,8,3,7,5,6),6)
     implicit def encode(key: (List[Int], Int)):(Int,Int) = (key._1.length, key._2)
 
     lazy val f: DP = Memo {
-      case (Nil, 0) => Seq(Nil)
+      case (Nil, 0) => Seq(Seq())
       case (Nil, _) => Nil
       case (a :: as, x) => f(as, x - a).map(_ :+ a) ++ f(as, x)
     }
@@ -42,4 +42,4 @@ ss(List(9,8,3,7,5,6),6)
     f(s, t)
   }
 
-subsetSum(List(5,10,17,9,8,3,7,6),27)
+subsetSum(List(5,1,-4,-10,9,-1,-4,-5,-8,3,1,4,2,-8,-4,3,-4,-5,1,7,8,6,2,8),0).filter(_.size == 3).map(_.sorted).distinct
