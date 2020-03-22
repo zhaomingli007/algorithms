@@ -2,3 +2,5 @@
 **/target
 **/.settings
 .history
+.DS_Store
+**/.DS_Store
