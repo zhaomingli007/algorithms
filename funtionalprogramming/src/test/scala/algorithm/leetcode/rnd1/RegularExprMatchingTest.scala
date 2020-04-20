@@ -5,7 +5,8 @@ import org.scalatest.FunSuite
 class RegularExprMatchingTest extends FunSuite {
 
   test("testIsMatch") {
-    RegularExprMatching.isMatch("abcefg","a.*g")
+    val t = RegularExprMatching.isMatch("abbbcefg","""a.*cefg""")
+    println(t)
   }
 
 }
